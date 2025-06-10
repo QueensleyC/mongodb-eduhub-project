@@ -14,18 +14,15 @@ fake = Faker()
 # ========== Part 1: Database Setup and Data Modeling ==========
 
 # Task 1.1: Create Database and Collections
-# (Assumed already created during MongoClient connection)
-
 client = MongoClient("mongodb://localhost:27017/")
 db = client["eduhub_db"]
 
 # Task 1.2: Design Document Schemas
-# (Handled by schema validation in MongoDB setup or with application logic)
+# (Handled by schema validation in MongoDB setup)
 
 # ========== Part 2: Data Population ==========
 
 # Task 2.1: Insert Sample Data
-# (Handled earlier using Faker, not included here again)
 
 # Generate 25 users with a mix of roles (students and instructors)
 users = []
@@ -243,7 +240,114 @@ def assignments_due_next_week():
     return list(db.assignments.find({"dueDate": {"$gte": now, "$lte": next_week}}))
 
 # Task 4.2: Aggregation Pipeline
-# (Handled in another file, not repeated here)
+
+# Count total enrollments per course
+db.enrollments.aggregate([
+    {"$group": {"_id": "$courseId", "totalEnrollments": {"$sum": 1}}}
+])
+
+# Calculate average course rating
+db.courses.aggregate([
+    {"$match": {"rating": {"$exists": True}}},
+    {"$group": {"_id": "$courseId", "avgRating": {"$avg": "$rating"}}}
+])
+
+# Group by course category
+db.courses.aggregate([
+    {"$group": {"_id": "$category", "totalCourses": {"$sum": 1}}}
+])
+
+# Average grade per student
+db.submissions.aggregate([
+    {"$group": {"_id": "$studentId", "averageGrade": {"$avg": "$grade"}}}
+])
+
+# Completion rate by course
+db.enrollments.aggregate([
+    {"$group": {
+        "_id": "$courseId",
+        "avgProgress": {"$avg": "$progress"}  # Assuming progress is from 0 to 100
+    }}
+])
+
+# Top-performing students (e.g., avg grade ≥ 90)
+db.submissions.aggregate([
+    {"$group": {"_id": "$studentId", "averageGrade": {"$avg": "$grade"}}},
+    {"$match": {"averageGrade": {"$gte": 90}}},
+    {"$sort": {"averageGrade": -1}}
+])
+
+# Total students taught by each instructor
+db.courses.aggregate([
+    {"$lookup": {
+        "from": "enrollments",
+        "localField": "courseId",
+        "foreignField": "courseId",
+        "as": "course_enrollments"
+    }},
+    {"$group": {
+        "_id": "$instructorId",
+        "totalStudents": {"$sum": {"$size": "$course_enrollments"}}
+    }}
+])
+
+# Average course rating per instructor
+db.courses.aggregate([
+    {"$match": {"rating": {"$exists": True}}},
+    {"$group": {
+        "_id": "$instructorId",
+        "averageRating": {"$avg": "$rating"}
+    }}
+])
+
+# Revenue generated per instructor
+db.courses.aggregate([
+    {"$lookup": {
+        "from": "enrollments",
+        "localField": "courseId",
+        "foreignField": "courseId",
+        "as": "enrolls"
+    }},
+    {"$project": {
+        "instructorId": 1,
+        "revenue": {"$multiply": [{"$size": "$enrolls"}, "$price"]}
+    }},
+    {"$group": {
+        "_id": "$instructorId",
+        "totalRevenue": {"$sum": "$revenue"}
+    }}
+])
+
+# Monthly enrollment trends
+db.enrollments.aggregate([
+    {"$group": {
+        "_id": {"$dateToString": {"format": "%Y-%m", "date": "$enrollmentDate"}},
+        "totalEnrollments": {"$sum": 1}
+    }},
+    {"$sort": {"_id": 1}}
+])
+
+# Most popular course categories
+db.enrollments.aggregate([
+    {"$lookup": {
+        "from": "courses",
+        "localField": "courseId",
+        "foreignField": "courseId",
+        "as": "course"
+    }},
+    {"$unwind": "$course"},
+    {"$group": {"_id": "$course.category", "total": {"$sum": 1}}},
+    {"$sort": {"total": -1}}
+])
+
+# Student engagement metrics (average progress per course)
+db.enrollments.aggregate([
+    {"$group": {
+        "_id": "$courseId",
+        "avgProgress": {"$avg": "$progress"}
+    }}
+])
+
 
 # ========== Part 5: Indexing and Performance ==========
 
