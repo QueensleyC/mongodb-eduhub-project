@@ -1,0 +1,574 @@
+[{
+  "_id": {
+    "$oid": "6848127bc419e2efd265decf"
+  },
+  "userId": "u001",
+  "email": "ambermcdaniel@example.org",
+  "firstName": "Scott",
+  "lastName": "Dorsey",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2024-03-14T19:55:58.000Z"
+  },
+  "profile": {
+    "bio": "Clear white cultural article history past.",
+    "avatar": "https://placekitten.com/965/725",
+    "skills": [
+      "JavaScript"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265ded0"
+  },
+  "userId": "u002",
+  "email": "owalsh@example.net",
+  "firstName": "Katelyn",
+  "lastName": "Hawkins",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2025-01-20T23:17:04.000Z"
+  },
+  "profile": {
+    "bio": "Science level piece financial.",
+    "avatar": "https://picsum.photos/158/765",
+    "skills": [
+      "MongoDB",
+      "JavaScript"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265ded1"
+  },
+  "userId": "u003",
+  "email": "mcclureamy@example.com",
+  "firstName": "Lauren",
+  "lastName": "Taylor",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2024-01-11T12:32:49.000Z"
+  },
+  "profile": {
+    "bio": "School along top her wait teacher.",
+    "avatar": "https://picsum.photos/477/304",
+    "skills": [
+      "SQL",
+      "MongoDB",
+      "JavaScript"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265ded2"
+  },
+  "userId": "u004",
+  "email": "coreyhart@example.net",
+  "firstName": "Robert",
+  "lastName": "Richardson",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2024-07-10T02:21:06.000Z"
+  },
+  "profile": {
+    "bio": "Be much the group art civil.",
+    "avatar": "https://placekitten.com/53/927",
+    "skills": [
+      "MongoDB",
+      "JavaScript",
+      "Data Science"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265ded3"
+  },
+  "userId": "u005",
+  "email": "zreynolds@example.com",
+  "firstName": "John",
+  "lastName": "Long",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2023-07-22T12:34:14.000Z"
+  },
+  "profile": {
+    "bio": "Produce design color particular.",
+    "avatar": "https://picsum.photos/44/537",
+    "skills": [
+      "Python",
+      "Data Science",
+      "JavaScript",
+      "Machine Learning"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265ded4"
+  },
+  "userId": "u006",
+  "email": "heatherblack@example.org",
+  "firstName": "Chad",
+  "lastName": "Morris",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2023-06-23T15:57:30.000Z"
+  },
+  "profile": {
+    "bio": "Page heavy bed call consumer.",
+    "avatar": "https://picsum.photos/140/1019",
+    "skills": [
+      "SQL",
+      "Python"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265ded5"
+  },
+  "userId": "u007",
+  "email": "christopher07@example.org",
+  "firstName": "Jacqueline",
+  "lastName": "Cox",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2024-10-06T09:59:36.000Z"
+  },
+  "profile": {
+    "bio": "Above night suffer well book institution last.",
+    "avatar": "https://dummyimage.com/502x803",
+    "skills": [
+      "Machine Learning"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265ded6"
+  },
+  "userId": "u008",
+  "email": "eerickson@example.net",
+  "firstName": "Dawn",
+  "lastName": "West",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2024-05-02T22:16:11.000Z"
+  },
+  "profile": {
+    "bio": "End PM trouble anything court return major.",
+    "avatar": "https://picsum.photos/256/926",
+    "skills": [
+      "Data Science"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265ded7"
+  },
+  "userId": "u009",
+  "email": "collinspatrick@example.net",
+  "firstName": "Kimberly",
+  "lastName": "Sims",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2024-05-11T05:01:05.000Z"
+  },
+  "profile": {
+    "bio": "Big avoid water forward according area.",
+    "avatar": "https://dummyimage.com/193x316",
+    "skills": [
+      "Data Science"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265ded8"
+  },
+  "userId": "u010",
+  "email": "lnelson@example.org",
+  "firstName": "Kayla",
+  "lastName": "Henderson",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2024-05-10T00:20:51.000Z"
+  },
+  "profile": {
+    "bio": "Brother feeling join and expect.",
+    "avatar": "https://dummyimage.com/326x770",
+    "skills": [
+      "SQL"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265ded9"
+  },
+  "userId": "u011",
+  "email": "melissaferrell@example.net",
+  "firstName": "Audrey",
+  "lastName": "Price",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2023-09-24T04:22:16.000Z"
+  },
+  "profile": {
+    "bio": "Industry hope drug manage administration collection return type.",
+    "avatar": "https://placekitten.com/172/751",
+    "skills": [
+      "Machine Learning",
+      "MongoDB",
+      "Data Science"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265deda"
+  },
+  "userId": "u012",
+  "email": "johnnysmith@example.net",
+  "firstName": "Rebecca",
+  "lastName": "Robinson",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2025-02-03T21:03:00.000Z"
+  },
+  "profile": {
+    "bio": "Smile for off church act entire leg agency.",
+    "avatar": "https://picsum.photos/183/316",
+    "skills": [
+      "JavaScript"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dedb"
+  },
+  "userId": "u013",
+  "email": "nicole18@example.org",
+  "firstName": "David",
+  "lastName": "Holt",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2024-03-03T14:44:09.000Z"
+  },
+  "profile": {
+    "bio": "Customer all something short why.",
+    "avatar": "https://placekitten.com/790/178",
+    "skills": [
+      "JavaScript",
+      "SQL",
+      "Python",
+      "MongoDB"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dedc"
+  },
+  "userId": "u014",
+  "email": "daniel44@example.net",
+  "firstName": "Richard",
+  "lastName": "Carroll",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2025-01-01T18:44:08.000Z"
+  },
+  "profile": {
+    "bio": "Edge attack person police.",
+    "avatar": "https://picsum.photos/554/217",
+    "skills": [
+      "Machine Learning",
+      "SQL",
+      "Data Science",
+      "MongoDB"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dedd"
+  },
+  "userId": "u015",
+  "email": "waynearmstrong@example.com",
+  "firstName": "Amanda",
+  "lastName": "Escobar",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2023-09-04T06:22:50.000Z"
+  },
+  "profile": {
+    "bio": "Make last as defense assume seek hold.",
+    "avatar": "https://placekitten.com/167/890",
+    "skills": [
+      "Machine Learning"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dede"
+  },
+  "userId": "u016",
+  "email": "pdecker@example.org",
+  "firstName": "Stephanie",
+  "lastName": "Williamson",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2024-03-09T04:01:01.000Z"
+  },
+  "profile": {
+    "bio": "Range character especially.",
+    "avatar": "https://placekitten.com/17/482",
+    "skills": [
+      "Machine Learning"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dedf"
+  },
+  "userId": "u017",
+  "email": "sbrown@example.net",
+  "firstName": "Patricia",
+  "lastName": "Simmons",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2024-03-19T06:07:46.000Z"
+  },
+  "profile": {
+    "bio": "Break fill treat.",
+    "avatar": "https://placekitten.com/951/114",
+    "skills": [
+      "Data Science"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dee0"
+  },
+  "userId": "u018",
+  "email": "sandraanderson@example.com",
+  "firstName": "Emily",
+  "lastName": "Williams",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2025-05-02T15:45:19.000Z"
+  },
+  "profile": {
+    "bio": "These poor military in anyone will million personal.",
+    "avatar": "https://dummyimage.com/918x27",
+    "skills": [
+      "SQL"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dee1"
+  },
+  "userId": "u019",
+  "email": "tuckerstacey@example.org",
+  "firstName": "Michelle",
+  "lastName": "Herman",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2024-11-12T00:21:36.000Z"
+  },
+  "profile": {
+    "bio": "Mother through economy water key.",
+    "avatar": "https://dummyimage.com/660x95",
+    "skills": [
+      "SQL",
+      "Machine Learning"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dee2"
+  },
+  "userId": "u020",
+  "email": "yolandaoconnor@example.net",
+  "firstName": "Kathleen",
+  "lastName": "Gonzalez",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2024-06-05T06:41:37.000Z"
+  },
+  "profile": {
+    "bio": "Camera already college record not.",
+    "avatar": "https://picsum.photos/699/492",
+    "skills": [
+      "Machine Learning",
+      "MongoDB",
+      "JavaScript"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dee3"
+  },
+  "userId": "u021",
+  "email": "heather21@example.net",
+  "firstName": "Jorge",
+  "lastName": "Lewis",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2023-06-12T00:56:52.000Z"
+  },
+  "profile": {
+    "bio": "Data live federal war involve night.",
+    "avatar": "https://placekitten.com/160/599",
+    "skills": [
+      "MongoDB",
+      "SQL",
+      "Python",
+      "Data Science"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dee4"
+  },
+  "userId": "u022",
+  "email": "emily34@example.net",
+  "firstName": "Shawn",
+  "lastName": "Williams",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2025-01-21T23:14:51.000Z"
+  },
+  "profile": {
+    "bio": "Since hold series program security.",
+    "avatar": "https://placekitten.com/167/800",
+    "skills": [
+      "SQL"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dee5"
+  },
+  "userId": "u023",
+  "email": "griffinheather@example.net",
+  "firstName": "Nicole",
+  "lastName": "Reed",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2023-12-25T20:36:12.000Z"
+  },
+  "profile": {
+    "bio": "Passionate about AI and data science.",
+    "avatar": "http://example.com/new_avatar.jpg",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Data Analysis"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dee6"
+  },
+  "userId": "u024",
+  "email": "karen43@example.net",
+  "firstName": "Darryl",
+  "lastName": "George",
+  "role": "instructor",
+  "dateJoined": {
+    "$date": "2024-08-26T15:56:20.000Z"
+  },
+  "profile": {
+    "bio": "Economic white month ago.",
+    "avatar": "https://picsum.photos/872/950",
+    "skills": [
+      "JavaScript",
+      "Data Science",
+      "SQL"
+    ]
+  },
+  "isActive": false
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dee7"
+  },
+  "userId": "u025",
+  "email": "cynthia54@example.org",
+  "firstName": "Elizabeth",
+  "lastName": "Smith",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2025-03-26T03:16:17.000Z"
+  },
+  "profile": {
+    "bio": "Peace loss guy system brother.",
+    "avatar": "https://placekitten.com/611/471",
+    "skills": [
+      "MongoDB"
+    ]
+  },
+  "isActive": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265df2e"
+  },
+  "userId": "u026",
+  "email": "newstudent@example.com",
+  "firstName": "Alice",
+  "lastName": "Johnson",
+  "role": "student",
+  "dateJoined": {
+    "$date": "2025-06-10T12:09:47.936Z"
+  },
+  "profile": {
+    "bio": "Eager learner of data science.",
+    "avatar": "http://example.com/avatar.jpg",
+    "skills": [
+      "Python",
+      "Statistics"
+    ]
+  },
+  "isActive": true
+}]

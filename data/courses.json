@@ -1,0 +1,218 @@
+[{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dee8"
+  },
+  "courseId": "c001",
+  "title": "Difference which really.",
+  "description": "In fight myself bring race certainly. Car individual similar husband majority expert technology.",
+  "instructorId": "u001",
+  "category": "Data Science",
+  "level": "advanced",
+  "duration": 38.2,
+  "price": 47.46,
+  "tags": [
+    "UX",
+    "Networks"
+  ],
+  "createdAt": {
+    "$date": "2025-06-10T12:09:47.399Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T12:09:47.399Z"
+  },
+  "isPublished": false
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265dee9"
+  },
+  "courseId": "c002",
+  "title": "Better experience.",
+  "description": "Raise fall east crime college majority. Quite also image wonder travel my.",
+  "instructorId": "u022",
+  "category": "Programming",
+  "level": "beginner",
+  "duration": 19.6,
+  "price": 74.38,
+  "tags": [
+    "Networks",
+    "Python"
+  ],
+  "createdAt": {
+    "$date": "2025-06-10T12:09:47.400Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T12:09:47.400Z"
+  },
+  "isPublished": false
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265deea"
+  },
+  "courseId": "c003",
+  "title": "Future away especially.",
+  "description": "Every resource already. Worker on whose window industry author.",
+  "instructorId": "u023",
+  "category": "Design",
+  "level": "intermediate",
+  "duration": 20,
+  "price": 98.11,
+  "tags": [
+    "Cloud",
+    "UX"
+  ],
+  "createdAt": {
+    "$date": "2025-06-10T12:09:47.400Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T12:09:47.400Z"
+  },
+  "isPublished": false
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265deeb"
+  },
+  "courseId": "c004",
+  "title": "I wide prove get.",
+  "description": "Easy center teacher deal. Different give like always politics culture. They watch trade.",
+  "instructorId": "u010",
+  "category": "Cybersecurity",
+  "level": "intermediate",
+  "duration": 30.2,
+  "price": 41.38,
+  "tags": [
+    "Cloud",
+    "MongoDB"
+  ],
+  "createdAt": {
+    "$date": "2025-06-10T12:09:47.401Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T12:09:47.401Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265deec"
+  },
+  "courseId": "c005",
+  "title": "Decade play.",
+  "description": "Main kitchen strategy fine enter available program. Hard economy full tell. Actually hospital can factor young likely world. Fall cold visit green.",
+  "instructorId": "u022",
+  "category": "Programming",
+  "level": "intermediate",
+  "duration": 18.5,
+  "price": 86.49,
+  "tags": [
+    "MongoDB",
+    "Networks"
+  ],
+  "createdAt": {
+    "$date": "2025-06-10T12:09:47.402Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T12:09:47.402Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265deed"
+  },
+  "courseId": "c006",
+  "title": "Skill along pretty.",
+  "description": "Claim often conference soldier seem. Look try professor born study young contain industry. Between explain else peace mother hospital.",
+  "instructorId": "u001",
+  "category": "Programming",
+  "level": "beginner",
+  "duration": 15.6,
+  "price": 78.46,
+  "tags": [
+    "Cloud",
+    "MongoDB"
+  ],
+  "createdAt": {
+    "$date": "2025-06-10T12:09:47.402Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T12:09:47.402Z"
+  },
+  "isPublished": false
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265deee"
+  },
+  "courseId": "c007",
+  "title": "Sure left.",
+  "description": "Box point available Mr.",
+  "instructorId": "u008",
+  "category": "Data Science",
+  "level": "intermediate",
+  "duration": 19.1,
+  "price": 87.45,
+  "tags": [
+    "Cloud",
+    "UX"
+  ],
+  "createdAt": {
+    "$date": "2025-06-10T12:09:47.403Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T12:09:47.403Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265deef"
+  },
+  "courseId": "c008",
+  "title": "With item treatment present soldier.",
+  "description": "Yet recently behind close side medical. Enjoy personal lot continue.",
+  "instructorId": "u011",
+  "category": "Design",
+  "level": "beginner",
+  "duration": 25.6,
+  "price": 10.73,
+  "tags": [
+    "MongoDB",
+    "Python"
+  ],
+  "createdAt": {
+    "$date": "2025-06-10T12:09:47.403Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T12:09:47.403Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "6848127cc419e2efd265df2f"
+  },
+  "courseId": "c009",
+  "title": "Introduction to AI",
+  "description": "Learn the basics of Artificial Intelligence.",
+  "instructorId": "u005",
+  "category": "Data Science",
+  "level": "beginner",
+  "duration": 20,
+  "price": 49.99,
+  "tags": [
+    "AI",
+    "Machine Learning",
+    "Deep Learning",
+    "Neural Networks"
+  ],
+  "createdAt": {
+    "$date": "2025-06-10T12:09:48.020Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-10T12:09:49.059Z"
+  },
+  "isPublished": true
+}]

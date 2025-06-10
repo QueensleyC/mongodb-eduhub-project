@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "6848127bc419e2efd265df18"
+  },
+  "assignmentId": "a001",
+  "courseId": "c005",
+  "title": "Great country from investment region arm difference.",
+  "description": "Success table place kid. Ahead reflect unit never feeling within.",
+  "dueDate": {
+    "$date": "2025-06-16T12:09:47.705Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265df19"
+  },
+  "assignmentId": "a002",
+  "courseId": "c008",
+  "title": "Worker person network focus them personal know.",
+  "description": "Off hit student wait experience course practice. Candidate name half news major relate. Stand room follow culture.",
+  "dueDate": {
+    "$date": "2025-06-16T12:09:47.706Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265df1a"
+  },
+  "assignmentId": "a003",
+  "courseId": "c001",
+  "title": "Him suffer product serious also give physical region.",
+  "description": "Image rich business government. Medical quality even husband head direction section early. Herself present attorney economic method.",
+  "dueDate": {
+    "$date": "2025-06-28T12:09:47.707Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265df1b"
+  },
+  "assignmentId": "a004",
+  "courseId": "c003",
+  "title": "Live shoulder Mr federal.",
+  "description": "Head fear explain. Study while old type carry course sell seem. Character exist you best.",
+  "dueDate": {
+    "$date": "2025-06-19T12:09:47.707Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265df1c"
+  },
+  "assignmentId": "a005",
+  "courseId": "c005",
+  "title": "They senior size blue.",
+  "description": "Friend price inside idea drug face call. White carry for indicate carry. Then information single wrong account significant.",
+  "dueDate": {
+    "$date": "2025-06-21T12:09:47.707Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265df1d"
+  },
+  "assignmentId": "a006",
+  "courseId": "c002",
+  "title": "Final myself natural.",
+  "description": "Structure theory people interest. Technology source picture alone teacher. After physical mouth perform adult.",
+  "dueDate": {
+    "$date": "2025-06-29T12:09:47.709Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265df1e"
+  },
+  "assignmentId": "a007",
+  "courseId": "c002",
+  "title": "Item community number study recognize plant.",
+  "description": "Still high manage. Make they development degree run life. Your data past student road six. Within economic herself close exist receive.",
+  "dueDate": {
+    "$date": "2025-06-28T12:09:47.709Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265df1f"
+  },
+  "assignmentId": "a008",
+  "courseId": "c006",
+  "title": "Put arm ability nation top teach degree.",
+  "description": "Father nearly spend four walk maybe grow. Available water nearly drive type growth. Worker vote tonight play product you.",
+  "dueDate": {
+    "$date": "2025-06-21T12:09:47.709Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265df20"
+  },
+  "assignmentId": "a009",
+  "courseId": "c004",
+  "title": "Person sound me season.",
+  "description": "Fund ever exist region hour kind.",
+  "dueDate": {
+    "$date": "2025-06-30T12:09:47.709Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6848127bc419e2efd265df21"
+  },
+  "assignmentId": "a010",
+  "courseId": "c004",
+  "title": "Court my keep suddenly.",
+  "description": "Agree deal city focus travel. Stuff their year project method teach rule. Half project office machine base so. College item language stop.",
+  "dueDate": {
+    "$date": "2025-06-26T12:09:47.711Z"
+  }
+}]
