@@ -1,0 +1,44 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["userId", "email", "firstName", "lastName", "role"],
+    "properties": {
+      "userId": {
+        "bsonType": "string",
+        "description": "must be a string and is required"
+      },
+      "email": {
+        "bsonType": "string",
+        "pattern": "^.+@.+\\..+$",
+        "description": "must be a valid email format and is required"
+      },
+      "firstName": {
+        "bsonType": "string"
+      },
+      "lastName": {
+        "bsonType": "string"
+      },
+      "role": {
+        "enum": ["student", "instructor"],
+        "description": "must be either student or instructor"
+      },
+      "dateJoined": {
+        "bsonType": "date"
+      },
+      "profile": {
+        "bsonType": "object",
+        "properties": {
+          "bio": {"bsonType": "string"},
+          "avatar": {"bsonType": "string"},
+          "skills": {
+            "bsonType": "array",
+            "items": {"bsonType": "string"}
+          }
+        }
+      },
+      "isActive": {
+        "bsonType": "bool"
+      }
+    }
+  }
+}
