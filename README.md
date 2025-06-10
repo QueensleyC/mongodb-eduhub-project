@@ -7,9 +7,29 @@ A MongoDB-powered backend prototype for an educational platform called **EduHub*
 ## 📁 Project Structure
 
 ```
-├── eduhub_queries.py     # Python code containing all MongoDB operations
-├── validation.json       # JSON schema validation rules for collections
-├── README.md             # Project documentation
+├── README.md
+
+├── notebooks/
+
+│   └── eduhub_mongodb_project.ipynb
+
+├── src/
+
+│   └── eduhub_queries.py
+
+├── data/
+
+│   ├── sample_data.json
+
+│   └── schema_validation.json
+
+├── docs/
+
+│   ├── performance_analysis.md
+
+│   └── presentation.pptx
+
+└── .gitignore
 ```
 
 ---
