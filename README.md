@@ -224,7 +224,7 @@ This project demonstrates strong skills in:
 ## 🔗 Author
 
 **Your Name**  
-_Developer, Data Enthusiast_  
-Email: youremail@example.com  
-GitHub: [github.com/yourusername](https://github.com/yourusername)
+_Developer, Data Engineer_  
+Email: ebyqueensley1@gmail.com
+GitHub: [github.com/QueensleyC](https://github.com/QueensleyC)
 
